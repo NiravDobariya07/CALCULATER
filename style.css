@@ -7,6 +7,45 @@
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgb(153, 153, 153,1);
 }
+.datetime{
+    color: #fff;
+    background: #10101e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 380px;
+    padding:15px 10px ;
+    text-align: center;
+
+}
+.datetime:hover{
+    background: #5a5a5a;
+}
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 3px;
+}
+.time{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.time span:last-child{
+   position: relative;
+   margin: 0 6px;
+   font-weight: 600;
+   text-align: center;
+   letter-spacing: 1.5px;
+}
+.time span:last-child{
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
 #display{
     text-align: right;
     height: 70px;
@@ -14,10 +53,15 @@
     padding: 16px 8px;
     font-size: 25px;
 }
+.btn{
+    color: rgb(248, 138, 12);
+    font-weight: bold;
+    font-size: 30px;
+}
 .buttons{
     display: grid;
-    border-bottom: 1px solid#999;
-    border-left: 1px solid#999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .buttons > div {
@@ -33,7 +77,7 @@
 }
 #equal{
     background-color: blue;
-    color: white;
+    
 }
 .button:hover{
     background-color: #323330;
